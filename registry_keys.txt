@@ -1,0 +1,11 @@
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\1
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\2
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\3
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\4
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\5
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\6
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\7
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\8
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\9
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\10
+HKEY_CURRENT_USER\Software\Microsoft\Multimedia\11

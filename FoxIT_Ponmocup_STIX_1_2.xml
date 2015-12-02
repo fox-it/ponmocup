@@ -1,0 +1,1175 @@
+<stix:STIX_Package 
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:DomainNameObj="http://cybox.mitre.org/objects#DomainNameObject-1"
+	xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:foxit="http://stix.fox-it.com/foxit"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:marking="http://data-marking.mitre.org/Marking-1"
+	xmlns:report="http://stix.mitre.org/Report-1"
+	xmlns:snortTM="http://stix.mitre.org/extensions/TestMechanism#Snort-1"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:tlpMarking="http://data-marking.mitre.org/extensions/MarkingStructure#TLP-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:yaraTM="http://stix.mitre.org/extensions/TestMechanism#YARA-1" id="foxit:Package-17d26107-67c6-431e-9330-11981ff22351" version="1.2">
+    <stix:Reports>
+        <stix:Report id="foxit:Report-ab2e1cba-674d-4610-ad9c-8d8863ab4046" xsi:type='report:ReportType' version="1.0">
+            <report:Header>
+                <report:Title>Ponmocup Indicators</report:Title>
+                <report:Intent xsi:type="stixVocabs:ReportIntentVocab-1.0">Indicators</report:Intent>
+                <report:Handling>
+                    <marking:Marking>
+                        <marking:Controlled_Structure>//node() | //@*</marking:Controlled_Structure>
+                        <marking:Marking_Structure xsi:type='tlpMarking:TLPMarkingStructureType' color="WHITE"/>
+                    </marking:Marking>
+                </report:Handling>
+                <report:Information_Source>
+                    <stixCommon:Identity id="Fox-IT"/>
+                    <stixCommon:Time>
+                        <cyboxCommon:Produced_Time precision="day">2015-12-02T00:00:00</cyboxCommon:Produced_Time>
+                    </stixCommon:Time>
+                </report:Information_Source>
+            </report:Header>
+            <report:Indicators>
+                <report:Indicator id="foxit:indicator-2f3c684e-87bf-4ae5-a213-0210f9e93951" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-05adb723-bb58-4608-933a-8d2139b0cd2a">
+                        <cybox:Object id="foxit:Address-33fd318b-7f72-4fa9-98d3-46dc2deb8e29">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>214.66.10.71</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f40d6a3d-ab03-445f-b062-5adfa21bf769" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-7acea754-cc19-4494-901b-60795d4b9e7f">
+                        <cybox:Object id="foxit:Address-f6a1647c-f43b-4758-aab4-77fc3e796878">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ca2757fa-d323-4bdb-be1f-c36161bab574" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-7869517a-9d64-4be3-9682-8695aaed1b92">
+                        <cybox:Object id="foxit:Address-753ab5f8-c898-420f-9df6-561e32f651d1">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e92e359a-113a-42dc-be75-622b11eb127c" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-19a5819c-8e51-4187-b12b-64a460f6edf4">
+                        <cybox:Object id="foxit:Address-e915288f-b7a6-4ecc-9479-9b3462cacaf7">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-496493c7-11d5-4220-82fc-a7ee80779edc" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6260e32a-5707-478c-a047-9e337e80b18e">
+                        <cybox:Object id="foxit:Address-bb00595c-c4fa-462f-9bde-a925715bfc50">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-c3ddd130-27a7-4c81-952d-e757524e8354" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-5f83a43b-e40c-46d1-b2ac-0886a1158891">
+                        <cybox:Object id="foxit:Address-9cbc3e85-dda3-430f-b8d6-90983fb7bb62">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-51f0b3b9-e163-4538-b47d-6d2b55681feb" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-5fac4928-a2f9-4d33-b279-6ed7dee774c5">
+                        <cybox:Object id="foxit:Address-a06a0736-6004-48de-8884-c8b346f919b6">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>95.211.240.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4f5cf684-11ec-43b3-8a75-abfc3203d368" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-bb28bfa5-cbb4-46c3-9c09-d310424b86b8">
+                        <cybox:Object id="foxit:Address-fec140a1-6861-47bb-aba7-03e7ff84458c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-71ee8534-2384-4f33-952c-732cc536133a" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-e29dfc8b-784c-4458-b481-c89e253cd9e2">
+                        <cybox:Object id="foxit:Address-0f3ed5d9-98ec-4f4b-876b-5b1c482b9d76">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-04701d48-72b7-4569-a735-176763499ed6" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-831128f6-8bbe-4bb8-a317-cc3ea4a39a90">
+                        <cybox:Object id="foxit:Address-686bd0d9-d31f-43f2-83f8-9e798e596beb">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-376c3162-bcea-4069-a120-74fdc92c3e86" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2113ac25-dcab-4477-bded-eeb478f1464d">
+                        <cybox:Object id="foxit:Address-58981d31-78f1-406b-9856-1ec24564a779">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>95.211.240.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-dce6e56e-ce31-4c25-bf8a-cd1dadd10cbc" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-03a71e9b-ff31-44ef-bf09-d910cc783acf">
+                        <cybox:Object id="foxit:Address-49bbdb0d-2dc7-4e15-b520-6180542208c3">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e5e72c22-23e6-46a8-bc8e-2d8d9fcbd614" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-62675175-c113-49b2-bc93-71a054103fec">
+                        <cybox:Object id="foxit:Address-340cad54-c57d-4cac-93b8-9ba49f3e3598">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-10f661e8-a336-422f-8631-cdcdfd463bc7" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-209115f4-1d1e-4e1b-b4dc-a960574c67ef">
+                        <cybox:Object id="foxit:Address-ea713bbe-111c-4f5c-9d2a-d87d1e011b48">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ca969307-c3ea-48d1-8113-1bb150843931" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-cd2e656d-ee2d-4302-80df-b4b6199d5794">
+                        <cybox:Object id="foxit:Address-b5b35926-af44-42a2-81d0-e1a71a192dd1">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-df2c9e7f-ce28-4fbd-bb5d-2c091fbe83a8" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-9324ae26-8981-40c1-9fce-9fa64ad48a1e">
+                        <cybox:Object id="foxit:Address-ee2e0174-91ee-49a2-82cd-ef2c3822d7e6">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-1b1e23af-3ad2-4148-bee3-089fc5567568" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-133baf1e-c834-4eae-a8f8-d85de6f86b7c">
+                        <cybox:Object id="foxit:Address-3eeab7c9-41b1-4c76-886b-90bcacf7621f">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.244</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-a1aefca4-1413-42bf-ac58-23f6ae15f5fc" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ef15678c-0a84-4751-a89a-482a4f8e282d">
+                        <cybox:Object id="foxit:Address-e05bcc18-0179-4744-8d98-95b58fa737b5">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>185.17.184.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4c4af690-dbdc-46fe-b363-832a0e16179e" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ac8e1f39-57a1-43ff-ac3e-ac2a027a7388">
+                        <cybox:Object id="foxit:Address-579e680e-564d-4efa-a6ac-71952aa9007a">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-2aa75fef-b4eb-4af0-88e2-d332cce83bf6" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-de330800-bdcb-41a3-a3a7-628f0478a631">
+                        <cybox:Object id="foxit:Address-87faad8e-6e17-45a3-a5b4-04917564327b">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-217fecc6-19db-4cc5-b016-acdb602deeac" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-94a4d45d-7f5f-4f54-88b5-7633b7dbcefd">
+                        <cybox:Object id="foxit:Address-3e3e3f4f-46cc-4d6c-a18c-8a2a1367a087">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4d0be9c8-6c30-4be4-bac9-e282facaba91" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-b241f3c5-0f06-417f-ae30-329103e9bf60">
+                        <cybox:Object id="foxit:Address-11dcd01a-2ae7-41a4-b3a5-72b311298b4f">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-cf7481df-d4fd-4702-9214-32a64bd72f8c" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-0bb540d4-2198-4f0c-b462-004105128365">
+                        <cybox:Object id="foxit:Address-241bde50-3ad9-4a43-9e4c-90dffad69332">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>93.115.88.220</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-3421d7c7-a4dd-4bf9-9979-ab4819de434f" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-d2697223-8696-4e4d-8265-1d214d4eefa4">
+                        <cybox:Object id="foxit:Address-934197fa-3fc2-4869-bfc5-a90df4ecf364">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>89.172.227.240</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-58bd014e-d1ea-412d-9562-02c4c0c4f862" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-f2a1c7ba-2af5-4920-a279-035456956150">
+                        <cybox:Object id="foxit:Address-a804ddfa-2fcb-42ba-851b-40475d92e1b5">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-c9c9e122-d276-46c5-b04e-8073a0689855" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-f5b257c5-143a-4962-a491-705704f3147d">
+                        <cybox:Object id="foxit:Address-a775f839-a570-4ca5-9956-4aa5b602952d">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-925b2522-7c64-4796-aa76-db5ae32ccf72" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-3c46d0f5-3d01-45cc-a406-8b77e78bbaa6">
+                        <cybox:Object id="foxit:Address-8a4e5dee-c70c-4a60-ab45-766095627054">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.248</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ec90882d-7708-4caa-9b20-7da0d25cfa91" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-386c388b-c405-4086-8a89-2babce4b6d62">
+                        <cybox:Object id="foxit:Address-36eb434c-b41e-425d-aa5b-584fe25e6cde">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-cacfd23b-139d-434e-85f5-f7a677685225" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2d7cdbcf-fd11-4a48-b873-cfc8a4fea649">
+                        <cybox:Object id="foxit:Address-99463970-0b3a-4eb3-83ef-e10f74596aa7">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.248</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-52349b3a-1174-4256-a912-176a8faee5a1" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6e146935-a56a-43bf-b577-cf6099c1baee">
+                        <cybox:Object id="foxit:Address-a7719b9e-728e-45f9-9c10-54610049c63f">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>185.17.184.249</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-c9196008-957c-4857-a5a5-e8bb4837c88d" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6e7d8569-67a8-4a8d-a3bc-6341ba12d234">
+                        <cybox:Object id="foxit:Address-bccf4412-1acf-44b2-8289-6bb137e7af16">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ed70fda1-0710-4f19-ac77-3167d5b4460b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ac523e71-1091-47a6-bee5-de5ee7882546">
+                        <cybox:Object id="foxit:Address-ed9f7056-028f-4576-ba8a-fea8ea5b2858">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>26.252.164.23</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-d0b65188-8dd7-40ba-8825-5ab77f51ad55" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-fc07a66a-8cc2-40a9-9b7d-6dab367c98a4">
+                        <cybox:Object id="foxit:Address-148c25b3-3290-49e4-b0de-eea258f93289">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.243</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f3a36a0e-1afe-4207-b32e-c0ce7f0289be" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-d5c96f73-5d44-4b26-b6c4-2780e13e2c13">
+                        <cybox:Object id="foxit:Address-3a8591cf-a5e4-4a45-81f3-577b3cf37cbf">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-bafdce1f-fbce-4a61-920f-7e19c5b3ad91" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4f6be315-6bc3-4d38-83bf-2a8d4cd33c2d">
+                        <cybox:Object id="foxit:Address-a886be41-49a5-4e85-a491-71b8279c271e">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-9fa08e8a-87c4-407e-8831-df0be0491cc9" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-91f627ef-2503-491d-8263-e86dbeffd88c">
+                        <cybox:Object id="foxit:Address-41965fa7-a94c-4f14-8f51-2c16c3bd93ec">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e9fa949e-1056-4c4b-8342-b21dffe9917b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-32373dbd-8b36-41ab-840a-f7f583611598">
+                        <cybox:Object id="foxit:Address-229ed08b-0561-44df-a5e6-a8f94fbaec37">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4bcff796-01bf-48a9-9b66-052891db0d9b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-7f5c12b0-44b0-4d89-82cd-c7458df65651">
+                        <cybox:Object id="foxit:Address-784632fe-5ec9-4301-a4ab-f7ad46c19a54">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>182.62.211.45</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f7ca7a70-4bd6-430e-a806-d8a83e4ad3fe" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ec347da7-d108-4c42-b867-4a30506d2c90">
+                        <cybox:Object id="foxit:Address-f52a6274-937b-4ba6-9b19-d4e924410235">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-36d108bf-9765-41b3-839d-7e927483a19b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-b47aed94-ea0e-492f-b548-7375e7004777">
+                        <cybox:Object id="foxit:Address-010d485c-210b-4694-8928-9f23ce7307d3">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>62.212.68.230</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-b6604806-5328-4389-9434-9b6b1ae8d3e0" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-3d4af20e-e8b9-4c67-8eaf-b9a03669f7d8">
+                        <cybox:Object id="foxit:Address-4680c814-5e49-4980-bae4-8319bfe5d340">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-67c3ba69-a7fe-4ccd-852a-ce2a257b6113" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-22483aa4-72e2-4d6e-b935-ddbfff05f318">
+                        <cybox:Object id="foxit:Address-a5504223-57bc-4945-bb69-7e39b5db2aef">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.250</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f429c7fe-9fa9-406c-90e9-b8a8fb5537e6" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-5769a568-cd28-424e-86ea-9e505c160488">
+                        <cybox:Object id="foxit:Address-6d0cbca6-0dd7-439d-b6db-27e3081ddbba">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.244</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-3d0b4ba6-d606-4ef8-8cd6-25ead437ae3c" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2820480a-d74f-4bf5-82ec-753c65d1b2b0">
+                        <cybox:Object id="foxit:Address-349b2dae-40ad-4118-aada-15330cddc14e">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>78.109.28.248</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-d950dcb4-0ec8-4e87-bf37-3be7fb040dd0" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-8c5a3cd4-d77f-465d-a83d-227716862456">
+                        <cybox:Object id="foxit:Address-0ea06a24-937b-4265-a79d-bd8af35d4c04">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-123b8775-5bb0-42f3-a447-e52a6026b61b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-04b30f4b-d8ec-4c34-bdb5-168d40e35a52">
+                        <cybox:Object id="foxit:Address-8999ed9c-a5e6-4eb9-a76f-2c1dcd3720aa">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>95.211.240.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-81b362a3-a772-4341-8a7a-cdb3b39a9242" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-827c4369-7eef-42c4-8977-7c4c3b81b134">
+                        <cybox:Object id="foxit:Address-de3f367a-6751-4630-828a-6d10da5741ff">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4bf8163a-573b-47d0-ba03-4554aa77f55b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-389f85e9-bea6-499e-a746-58b1657bb273">
+                        <cybox:Object id="foxit:Address-82cbd3f9-8477-4bbf-b12a-5053c5261387">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.194</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-2dff833f-804e-412e-b8c1-518b5caca210" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2cf89832-df2e-4261-932b-3dd41a41ac7b">
+                        <cybox:Object id="foxit:Address-7a119489-c01c-4cbc-947c-9eae1ac22a5a">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>28.16.103.211</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f1081c1e-e2c3-4571-baf5-96bfb3aa74fa" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-75e9834e-7fb2-4393-a4de-d3039c430ce1">
+                        <cybox:Object id="foxit:Address-899fa4a3-c68c-4253-9c3b-35317db2eae7">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-6c14449f-bc60-4016-968e-70df78317523" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-bfb2a224-22f2-4d69-9af0-a03e94d6ffb7">
+                        <cybox:Object id="foxit:Address-fc2c24a3-321e-431c-9bef-7d5e81f1eade">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>232.187.207.67</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-831308ab-91dc-4faa-b213-b92d5c295a9f" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4e8e4208-a944-4c25-bc68-8c34b2109286">
+                        <cybox:Object id="foxit:Address-3ab874da-409b-47e9-8513-9cde51d08a10">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>217.23.3.243</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-699b93e4-4b0c-4668-a427-68aec31f8c86" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-1dd7fefc-f966-4078-91a0-dfe0913e2885">
+                        <cybox:Object id="foxit:Address-45f2e611-87b1-47b1-b99f-e8f3dc25b918">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                <AddressObj:Address_Value>85.17.133.193</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ee626336-0c6d-49f1-b468-7ae9aade9f83" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-7823ddbd-5b77-40a2-b10e-25c59aba6e84">
+                        <cybox:Object id="foxit:DomainName-c0b46b08-94cd-496d-abab-934971e7605e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>abccornet.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-2ab13562-10ec-460f-ad1f-5483ff3a2312" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-5384e27e-ac4e-4e8f-ac23-b2419fdddeb8">
+                        <cybox:Object id="foxit:DomainName-11e1ebd6-0223-4c59-b641-41095aa397d5">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>adertisecorp.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-74243c55-e7e2-421b-bd31-3503114cf825" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-692960b3-a51d-4d53-9fc3-9e4068087504">
+                        <cybox:Object id="foxit:DomainName-bc9552d6-ac0f-40d8-a25d-12415e6e8f9f">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>affilipcorp.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-9a915026-02b2-4153-97c6-255a1d937e23" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-0542ee10-d166-49f4-bc64-a958545d7696">
+                        <cybox:Object id="foxit:DomainName-52658902-30d8-4dfc-9a6b-e5d937be15b9">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>anexcorp.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-954ebf28-af7e-4091-92bc-9f5d9317f8a2" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-b38259de-bb70-47a7-b8f8-fe1eae6288a2">
+                        <cybox:Object id="foxit:DomainName-398955d1-21d4-41e2-b8d1-11d397e2d868">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>britishfederal.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-359973bf-a2f5-4f8a-8bb7-0f9dd93a0baf" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-52b4e6d1-c5f3-45d8-9986-9d15f62fc41e">
+                        <cybox:Object id="foxit:DomainName-4d16e2e9-0b82-4b66-aa3c-7e4256d51be2">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>changinessmen.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e32e5512-6407-4f09-a221-3f2987d8b4e4" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-63b5248f-d6e0-40c0-ae2e-bfeca9eac2a8">
+                        <cybox:Object id="foxit:DomainName-233e1f74-d26b-433d-b744-4399df485623">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>claimsreference.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-748a96c1-e17f-4720-aae3-03113eae4f14" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-92b82a7f-02a3-4fe7-b61f-bf9ddc89a598">
+                        <cybox:Object id="foxit:DomainName-e796bfd3-6bee-4233-8dac-b49376c453ed">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>clickoptimiser.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-247032a9-964a-4ca0-91ac-db7ed4336d9a" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6d0f861e-a0a7-40a0-af72-c49c65fa4866">
+                        <cybox:Object id="foxit:DomainName-cb674d36-30da-47f8-842f-bd0c553d4312">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>contentdeliveryorg.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-91e137ed-5d0e-47ce-b313-6938f3e530d3" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4be9c16e-51e3-4660-a625-4b7c5a2ce1a5">
+                        <cybox:Object id="foxit:DomainName-877dac21-5b2d-42b2-90c2-a9283fff8494">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>contextexpert.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-17ff388d-16e7-4ed1-8b48-a34b9b4cd6db" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-32dd51dc-9095-4c78-8dbe-6dbe991d7efd">
+                        <cybox:Object id="foxit:DomainName-cafb9e58-4445-4915-90ab-3b118161619d">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>continuatu.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f41577f7-3a0a-438a-9a0f-6e48571be8ae" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-f5591522-b037-4049-a118-4038ddcd8196">
+                        <cybox:Object id="foxit:DomainName-0bfc6912-a88d-4353-858e-b6eea7c2148b">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>culminaccessful.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f5ea9b64-f0d3-4258-9083-b9c8bab69a66" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-8912a8cc-3517-4637-9286-e1fbb76e5ab2">
+                        <cybox:Object id="foxit:DomainName-80245abd-d3b7-4271-b486-87fac1e0d209">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>cybernan.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-1a826eb2-ad28-4de7-9f9f-b5b92bf08fb7" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ece08998-63c6-4fdc-a52f-9d95172736da">
+                        <cybox:Object id="foxit:DomainName-eebcfcc9-026e-488b-b0a1-3920b16d155c">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>defenciclovis.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-7e4e19f3-41a6-47f4-926f-ad2c044f87bd" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-91d65c4e-afc1-48a5-8741-448e3c4d26de">
+                        <cybox:Object id="foxit:DomainName-69ecc272-e450-4610-97fd-8d089fea7f65">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>descriptioned.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-0eeb2c3a-5e9d-4837-af59-4d116537712e" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-f94e0dd9-1331-413e-9dcc-dcdab3d5a39b">
+                        <cybox:Object id="foxit:DomainName-7718aa5a-b90f-42a2-8e64-d09cea6e1142">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>detroportans.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-56685ce4-ec02-4f19-8be8-f4dceb010505" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-0ec630a3-5170-4abf-856f-57b162e518cc">
+                        <cybox:Object id="foxit:DomainName-20a9b77e-9ba0-4be3-b8cb-05f996392a2e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>directiculture.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-04802a90-8111-4e7c-94d7-8c24aa8a453f" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-85200332-bdee-4187-a22e-49c8a6832144">
+                        <cybox:Object id="foxit:DomainName-d849a4d5-fc50-4c93-9d66-5b5b1b3b168d">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>directlyvast.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-edce308a-92f0-4c14-bb30-f0025fe94c89" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-8bebe1c7-a56d-47ab-a5be-a36b3e41ffd6">
+                        <cybox:Object id="foxit:DomainName-0f14371e-500f-4639-bf9c-786281898a7d">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>dogmationation.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-563088af-5583-4032-92a5-0f3158146e31" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-9f456722-2b8e-4fbf-87cc-be6f5caecdeb">
+                        <cybox:Object id="foxit:DomainName-bb8efc3b-59d5-4cf9-ad4b-13351f23f7a7">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>dynodns.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-48f193b0-17a1-4327-a23f-a7c602a93e19" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-e553a305-57d6-48f5-a23f-bfb53e7aff9f">
+                        <cybox:Object id="foxit:DomainName-3eb5282f-94da-447c-bd72-95508f93f24b">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>enckfeld.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-15198179-92e2-480b-93c7-4ee3ec1d2eb0" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-99df596d-d424-44f1-bd01-118e1600e57b">
+                        <cybox:Object id="foxit:DomainName-4142f840-3556-4abd-8e00-ad9ac40008d5">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>familyinteresting.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-60bf4ee0-aca3-4da9-8381-959249d410f0" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-445e6d81-a02d-44cc-b819-9cb2aeae9681">
+                        <cybox:Object id="foxit:DomainName-37c65051-08c2-45da-8ea8-4aa5bbc6734a">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>fasternation.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-374fb353-176f-40ba-8813-ad51e2e76fa3" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-1820d7d0-77b9-41a9-9f5b-3fb3fa0a492d">
+                        <cybox:Object id="foxit:DomainName-637976c6-d592-46b2-b896-5987a4873088">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>freewayreg.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-0b5a4df8-a050-406c-9150-008522811f7f" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-04c54da1-465d-46a8-a712-bc26a8bddfe0">
+                        <cybox:Object id="foxit:DomainName-c65fd1dc-56fa-45db-b7b5-bc68babcc3bd">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>headedpicked.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e5d7ff0a-a5ed-4a2c-8d38-6b67dae9db15" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-a9ebde15-8b38-45dd-bb5d-ae0b4dd298f8">
+                        <cybox:Object id="foxit:DomainName-81aeac93-72df-4b1f-abe0-e687d21292af">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>headedpicked.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-bdbbea48-33a1-46ba-a85b-62130030c7d1" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-9ec6e1b2-7fcb-47bf-a91a-4f2142428793">
+                        <cybox:Object id="foxit:DomainName-62bfda26-a52d-434c-b1b9-dcf7133958fd">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>highlytraditional.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-0c3975f7-028d-4e90-8b92-46c63c8e2649" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-ed71d26e-61de-4e1a-ba4a-354a7ffe6927">
+                        <cybox:Object id="foxit:DomainName-2c28fa29-8fe7-4cea-9050-1e01dc8917a0">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>himmeding.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-6694fa38-91f0-4ea0-a322-591b4b34a349" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-56b43711-7202-451c-bbff-dd2b5db5ced0">
+                        <cybox:Object id="foxit:DomainName-cfb5376b-0d1f-4829-8f0e-e1e47f40b04e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>howeveraged.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-1edea3ec-3db5-4813-a856-7df20b0726c8" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-d5e441ca-04a6-4b79-930f-d097ffc52461">
+                        <cybox:Object id="foxit:DomainName-e31f551b-fc9d-411e-b1bb-ec8e1e60c3bd">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>hydroelection.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ee2b4478-7c58-4ea9-9254-7b2b23c2b839" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-81d6afd7-d194-41f1-87fd-cea6a5b6f909">
+                        <cybox:Object id="foxit:DomainName-01f60ffb-fc25-4d55-84c2-6fef249ab54e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>illegedly.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-4c0f8f42-b258-4768-855c-89b34340b0ec" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6a8ff249-50d9-4b67-abb6-56e333e11170">
+                        <cybox:Object id="foxit:DomainName-8e40cabc-bb85-4dcc-b127-c83760735c19">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>imagesharehost.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-ee2c3641-ba35-4ff0-8af1-e14df025b5f5" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-3875734c-c39f-40be-9135-24bd6ccc971f">
+                        <cybox:Object id="foxit:DomainName-7d2faf5d-078a-4635-9589-e79fe3fb2ddf">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>leadwriting.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-5f3302a8-ca65-4603-9ac2-5d8261aa82ea" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4becf6b8-e642-4426-ad2a-327df2ddc53a">
+                        <cybox:Object id="foxit:DomainName-4d0e4947-85e9-4e65-a092-22f1ffc097a1">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>meetinglimited.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-8d975a41-fdce-44f3-a590-ff6759adc2d2" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2f09dbb8-6aa2-48be-b236-a8d7d736a6b3">
+                        <cybox:Object id="foxit:DomainName-fb606c89-131b-4641-90ed-929ca11cfd7f">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>netdiscovery.org</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-9466597d-cc4f-4b98-bd9f-6b6e14c76872" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-356db8cd-aa1c-4744-82af-c0e0cb9e2991">
+                        <cybox:Object id="foxit:DomainName-6793d766-56e9-4309-80bb-1ab10a98d2b5">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>picasootoolbar.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-d015895b-e26f-4bec-a86d-6a4cb2c085ad" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2f20543f-73cc-4600-b93d-867f10029029">
+                        <cybox:Object id="foxit:DomainName-4de7afc4-cb35-49dc-8322-aba7f354f8d8">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>piclbumestream.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-694383b3-7c74-44b2-87ef-c91a241056a0" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-66c96125-ba9a-42d8-aea7-ec3ddcb57044">
+                        <cybox:Object id="foxit:DomainName-c0569e82-57d7-4830-9c1d-73737bfbec6e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>postdone.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-7ed4e358-455a-455c-83e7-334ac68df254" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-62f959f9-4671-44f6-bbb8-385e131fa05d">
+                        <cybox:Object id="foxit:DomainName-a071c3ee-dafe-4942-a5b4-6e94cb99fff6">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>ratilovskoye.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-1a8bf7d4-b668-4362-9884-9b5e2d3571ea" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2017b4a2-a0da-40a1-a54d-89a539aeb544">
+                        <cybox:Object id="foxit:DomainName-9353c4aa-88a5-4afe-a61b-b5d39d58142e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>recising.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-b7ea6671-9882-4de0-882a-a47005db941f" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-e78c3c06-f137-4c9b-84d1-5549abe9690b">
+                        <cybox:Object id="foxit:DomainName-a1b168ed-d310-44f7-af83-098b5d37ad12">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>searchforthat.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e892b11b-5fb8-474f-b601-ba78162ce8a7" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-289fd59b-0f2f-4e34-8dd4-0e610027ac91">
+                        <cybox:Object id="foxit:DomainName-0d676c88-d4df-4066-8550-34f60324684a">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>sectionsfear.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-b65ad09c-f017-4e1a-90e9-c0451244057a" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-dabf324c-49ae-4208-83f5-545cf236880e">
+                        <cybox:Object id="foxit:DomainName-0c99627e-e72a-472f-b962-07d8b40fb833">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>separtila.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-5f4af6b3-abd0-4b11-8b0a-f5dbdc5d0a4b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4ea7891f-0bf3-4670-a593-e7f41d634909">
+                        <cybox:Object id="foxit:DomainName-f6c506c7-18f8-4d1c-afb7-d36c31a93010">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>standardbay.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-94adb7fc-f8ba-4b3c-8780-8a9e5895d977" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-20df6082-62ac-47ed-9c04-116b1e829502">
+                        <cybox:Object id="foxit:DomainName-e940e5b8-f26f-4ac7-9f42-87dfc33dd214">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>streamingadv.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-45ab639f-eb5e-4bbb-b531-2f4034d436d4" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-68d0ce55-7299-45b8-a789-ffc2af221cc7">
+                        <cybox:Object id="foxit:DomainName-414c242c-2ff4-4d27-a020-6926e74c625f">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>ternations.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-22aba997-6d3b-418f-bce9-0ece29779023" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-c499893b-7316-4e2c-893e-bf141f3ba451">
+                        <cybox:Object id="foxit:DomainName-725d4194-ad0c-4bad-971a-6ba9f8226681">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>thomaslaid.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-212d844e-6024-4cbe-9516-4a35d9bd71fc" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-55c76946-9e8c-4c82-b4c7-719907da4278">
+                        <cybox:Object id="foxit:DomainName-3a7ec3bd-083b-4a7c-b757-58c24c86cfa0">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>traffictradexpert.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-7b7b86bc-5b0b-46d4-85e3-5fddef0b1878" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-086e6f63-4be0-49e6-8f48-7e67cfe74134">
+                        <cybox:Object id="foxit:DomainName-5337aba6-01cf-4575-8575-7a6a4139b932">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>twicecitizens.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-e201d42b-8cb6-4938-9847-446b4b10edb8" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-21e7cdf8-b66a-486b-9b35-a6489ff79376">
+                        <cybox:Object id="foxit:DomainName-40837079-7e91-4244-8f1d-c8ee159cc45e">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>veristats.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-d33bc953-3dd5-45f4-bf7d-d75883154cc9" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-4acb6ba5-2080-45f8-ba39-e0c7120b7423">
+                        <cybox:Object id="foxit:DomainName-b6e0b29d-9162-44bc-b89b-135f5062e86b">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>virtualsearches.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-c6aef6cb-c512-4ff9-93fe-6f119ac15198" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-0843e1fe-4db1-446a-a40c-547c37f0a69d">
+                        <cybox:Object id="foxit:DomainName-0f74d461-7114-49f4-9ef7-b31f323b0079">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>workerssan.net</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-3a1171ba-f2fc-4e63-9b9e-57bc95123d1b" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2ab6cb55-d0ff-407c-a358-9e5160790324">
+                        <cybox:Object id="foxit:DomainName-a94d638d-8ad2-4a79-b05b-cfc744a2c6ae">
+                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                <DomainNameObj:Value>yaltimate.com</DomainNameObj:Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-90bf456f-12ad-4ca6-ad2b-bdf41c882c96" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-e665522e-8d65-4ab6-a062-b4f66e61b5e4">
+                        <cybox:Object id="foxit:WinRegistryKey-421ba145-2caf-4288-ae92-15e7cd0850b2">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\1</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-c07835d0-4435-4a24-989c-adfa2029f855" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-d7991ad3-f24c-4403-85ab-072a818ffd2f">
+                        <cybox:Object id="foxit:WinRegistryKey-49b03823-933e-4dce-ae8d-a08fcddb3ae3">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\2</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-5ace7289-4f3f-418b-885d-db0f752e75b3" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-f38ee700-44d9-4542-9182-c9f8e1eaa381">
+                        <cybox:Object id="foxit:WinRegistryKey-1a98e543-5fe7-4041-8563-4c47712c5462">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\3</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-95bdbd18-319a-4b47-9576-a6de10b8127e" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-dadebe59-5e23-46fa-ad8a-6e084e5ca475">
+                        <cybox:Object id="foxit:WinRegistryKey-63969029-0e18-44bb-9333-e6022b0654da">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\4</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-3a6055f5-e14f-402b-8dbb-aabefef54558" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-2d5d305d-bf19-4bc7-9a74-9bdfb79e7196">
+                        <cybox:Object id="foxit:WinRegistryKey-189379c8-7cb5-4c4e-9168-454b1fc7bebf">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\5</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-231e3fa3-0537-45b0-bc49-99775b0a9d88" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-9d7bd276-919b-4979-ba7e-b90e33459bdb">
+                        <cybox:Object id="foxit:WinRegistryKey-70397a82-dd5c-4b7f-bec1-1e31c4afe2d1">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\6</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-f4512882-6890-43f6-8b17-71cae37e9f10" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-6efc6250-6dd0-408f-b74f-60aef39b3496">
+                        <cybox:Object id="foxit:WinRegistryKey-9fe43dbe-ff87-4272-8722-889921fb387f">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\7</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-d5d30060-9896-4651-ab36-26683596b879" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-b13645b2-9444-4786-92f0-d240b11e7acd">
+                        <cybox:Object id="foxit:WinRegistryKey-50561418-1e6d-4e79-8a94-c0a1f30e4627">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\8</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-073da7a4-2031-49b4-88fa-0d1b4753f793" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-04ce15f3-9d30-4840-baf5-248c0aa37af2">
+                        <cybox:Object id="foxit:WinRegistryKey-ee2860b9-3d3c-4d5b-aa44-a4ab50dfcf76">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\9</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-5908a67b-47dd-4c4c-bcc8-ac9a238791fb" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-eb17b7c6-1b85-4380-9d1e-fbd416b7a3b4">
+                        <cybox:Object id="foxit:WinRegistryKey-fe321670-2091-4c47-ac8b-30efc4ad3675">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\10</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-29159823-41c0-4eac-b510-0a1c4d3f1b3a" xsi:type='indicator:IndicatorType'>
+                    <indicator:Observable id="foxit:Observable-073216b0-14b2-4afa-8416-8c7082cfdb0c">
+                        <cybox:Object id="foxit:WinRegistryKey-0dce8ea3-ae59-40e3-b0f3-50d2b6912d53">
+                            <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                <WinRegistryKeyObj:Key>HKEY_CURRENT_USER\Software\Microsoft\Multimedia\11</WinRegistryKeyObj:Key>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </indicator:Observable>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-8966074a-57c3-42db-b238-a8520e891d12" xsi:type='indicator:IndicatorType'>
+                    <indicator:Test_Mechanisms>
+                        <indicator:Test_Mechanism xsi:type='snortTM:SnortTestMechanismType'>
+                            <snortTM:Rule><![CDATA[alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"FOX-SRT - Trojan - Ponmocup HTTP Request (generic)"; flow:established,to_server; content:"Accept: */*|0d 0a|";fast_ pattern;http_header; content:"Pragma|3a| no-cache|0d 0a|";http_header; content:"Cache- Control|3a| no-cache|0d 0a|";http_header; content:!"Referer|3a|";http_header; content:"Cookie|3a| ";http_header; pcre:"/^Host\x3A[^\r\n]+?\d{1,3}\x2e\d{1,3}\x2e\d{1,3}\ x2e\d{1,3}\r\n/Hm"; content:!"Accept-Encoding|3a| ";http_header; content:!"Accept-Language|3a| ";http_header; content:!"Content-Type|3a| ";http_header; reference:url,http://blog.Fox-IT.com/2015/12/02/ponmocup-a-giant-hiding-in-the-shadows; threshold:type limit, track by_src, count 1, seconds 600; classtype:trojan-activity; priority:1; sid:21001533; rev:1;)]]></snortTM:Rule>
+                        </indicator:Test_Mechanism>
+                    </indicator:Test_Mechanisms>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-610de9d0-7e1f-40b0-8582-5f53cfe27595" xsi:type='indicator:IndicatorType'>
+                    <indicator:Test_Mechanisms>
+                        <indicator:Test_Mechanism xsi:type='snortTM:SnortTestMechanismType'>
+                            <snortTM:Rule><![CDATA[alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"FOX-SRT - Trojan - Ponmocup plugin-specific check-in"; content:"GET"; http_method; content:"HTTP/1.1|0d0a|Accept: */*"; distance:0; content:"Content-Type: application/x-www-form-urlencoded"; fast_pattern; distance:0; pcre:"/Host: ([0-9]{1,3}\.){3}[0-9]{1,3}\x0d/"; distance:0; content:"User-Agent: Mozilla/4.";  distance:0; content:"Cookie: ";  pcre:"/Cookie: [a-z0-9]{1,10}=[a-z0-9+/]{20,500} (=){0,2}/i"; distance:0; urilen:<50,norm; content:!"Referer";  threshold:type limit, track by_src, count 1, seconds 600; classtype:trojan-activity; reference:url,http://blog.Fox-IT.com/2015/12/02/ponmocup-a-giant-hiding-in-the-shadows; sid:21001686; rev:1;)]]></snortTM:Rule>
+                        </indicator:Test_Mechanism>
+                    </indicator:Test_Mechanisms>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-101a7cc1-56a4-4d1f-b00b-f460f7d2dd48" xsi:type='indicator:IndicatorType'>
+                    <indicator:Test_Mechanisms>
+                        <indicator:Test_Mechanism xsi:type='snortTM:SnortTestMechanismType'>
+                            <snortTM:Rule><![CDATA[alert udp $HOME_NET $SIP_PORTS -> any any (msg:"FOX-SRT - Trojan - Ponmocup plugin #2600 (SIP scanner)"; content:"User-Agent|3a| Zoiper for Windows rev.1812|0d0a|"; threshold: type limit, count 1, seconds 3600, track by_src; reference:url,http://blog.Fox-IT.com/2015/12/02/ponmocup-a-giant-hiding-in-the-shadows; sid:21001493; classtype:trojan-activity; rev:1;)]]></snortTM:Rule>
+                        </indicator:Test_Mechanism>
+                    </indicator:Test_Mechanisms>
+                </report:Indicator>
+                <report:Indicator id="foxit:indicator-2b18db26-7207-42a7-95d0-4b3618207128" xsi:type='indicator:IndicatorType'>
+                    <indicator:Test_Mechanisms>
+                        <indicator:Test_Mechanism xsi:type='yaraTM:YaraTestMechanismType'>
+                            <yaraTM:Rule><![CDATA[rule Ponmocup : plugins
+{
+              meta:
+                            description = "Ponmocup plugin detection (memory)"
+                            author = "Danny Heppener, Fox-IT"
+              strings:
+                            $1100 = {4D 5A 90 [29] 4C 04}
+                            $1201 = {4D 5A 90 [29] B1 04}
+                            $1300 = {4D 5A 90 [29] 14 05}
+                            $1350 = {4D 5A 90 [29] 46 05}
+                            $1400 = {4D 5A 90 [29] 78 05}
+                            $1402 = {4D 5A 90 [29] 7A 05}
+                            $1403 = {4D 5A 90 [29] 7B 05}
+                            $1404 = {4D 5A 90 [29] 7C 05}
+                            $1405 = {4D 5A 90 [29] 7D 05}
+                            $1406 = {4D 5A 90 [29] 7E 05}
+                            $1500 = {4D 5A 90 [29] DC 05}
+                            $1501 = {4D 5A 90 [29] DD 05}
+                            $1502 = {4D 5A 90 [29] DE 05}
+                            $1505 = {4D 5A 90 [29] E1 05}
+                            $1506 = {4D 5A 90 [29] E2 05}
+                            $1507 = {4D 5A 90 [29] E3 05}
+                            $1508 = {4D 5A 90 [29] E4 05}
+                            $1509 = {4D 5A 90 [29] E5 05}
+                            $1510 = {4D 5A 90 [29] E6 05}
+                            $1511 = {4D 5A 90 [29] E7 05}
+                            $1512 = {4D 5A 90 [29] E8 05}
+                            $1600 = {4D 5A 90 [29] 40 06}
+                            $1601 = {4D 5A 90 [29] 41 06}
+                            $1700 = {4D 5A 90 [29] A4 06}
+                            $1800 = {4D 5A 90 [29] 08 07}
+                            $1801 = {4D 5A 90 [29] 09 07}
+                            $1802 = {4D 5A 90 [29] 0A 07}
+                            $1803 = {4D 5A 90 [29] 0B 07}
+                            $2001 = {4D 5A 90 [29] D1 07}
+                            $2002 = {4D 5A 90 [29] D2 07}
+                            $2003 = {4D 5A 90 [29] D3 07}
+                            $2004 = {4D 5A 90 [29] D4 07}
+                            $2500 = {4D 5A 90 [29] C4 09}
+                            $2501 = {4D 5A 90 [29] C5 09}
+                            $2550 = {4D 5A 90 [29] F6 09}
+                            $2600 = {4D 5A 90 [29] 28 0A}
+                            $2610 = {4D 5A 90 [29] 32 0A}
+                            $2700 = {4D 5A 90 [29] 8C 0A}
+                            $2701 = {4D 5A 90 [29] 8D 0A}
+                            $2750 = {4D 5A 90 [29] BE 0A}
+                            $2760 = {4D 5A 90 [29] C8 0A}
+                            $2810 = {4D 5A 90 [29] FA 0A}
+
+              condition:
+                            any of ($1100,$1201,$1300,$1350,$1400,$1402,$1403,$1404,$1405,$1406,$1500,$1501,$1502,$1505,$1506,$1507,$1508,$1509,$1510,$1511,$1512,$1600,$1601,$1700,$1800,$1801,$1802,$1803,$2001,$2002,$2003,$2004,$2500,$2501,$2550,$2600,$2610,$2700,$2701,$2750,$2760,$2810)
+}
+]]></yaraTM:Rule>
+                        </indicator:Test_Mechanism>
+                    </indicator:Test_Mechanisms>
+                </report:Indicator>
+            </report:Indicators>
+        </stix:Report>
+    </stix:Reports>
+</stix:STIX_Package>
+
